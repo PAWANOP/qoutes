@@ -1,0 +1,42 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  height: 100vh;
+  background: yellow;
+  place-items: center;
+  display: grid;
+}
+#container{
+   padding: 36px;
+   width: 650px;
+   height: 400px;
+   background: orange;
+}
+button{
+  outline: none;
+  border: none;
+  transition: 0.3s;
+  text-transform: capitalize;
+  cursor: pointer;
+  font-size: 20px;
+  padding: 10px 8px;
+  margin-left: 220px;
+   text-align: center;
+}
+button:hover{
+  color: violet;
+  background: purple;
+}
+#author{
+  text-align: right;
+}
+
+#author h3{
+  color: grey;
+  font-size: 25px;
+  margin-top: 30px;
+}
